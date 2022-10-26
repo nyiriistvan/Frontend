@@ -1,0 +1,13 @@
+<h1>Űrlap</h1>
+
+<div class="urlap">
+  <label for="word">Szó</label>
+  <input type="text" id="word"
+  name="word"
+  [(ngModel)]="word" #wordCtrl="ngModel">
+</div>
+
+<br>
+<button (click)="goButton($event, wordCtrl.value)">
+  Mehet
+</button>

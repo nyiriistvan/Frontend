@@ -1,0 +1,23 @@
+<h1>Dolgozó</h1>
+
+<table>
+  <tr>
+    <td>{{mari.name}}</td>
+    <td>{{mari.city}}</td>
+    <td>{{mari.salary}}</td>
+  </tr>
+</table>
+
+<img [src]="path" [alt]="alttext">
+
+<br>
+
+<button (click)="katt()" class="btn btn-info mt-3">
+  Katt ide</button>
+
+  <select (change)="selectFruit($event)">
+    <option value="1">alma</option>
+    <option value="2">körte</option>
+    <option value="3">barack</option>
+    <option value="4">szilva</option>
+  </select>
